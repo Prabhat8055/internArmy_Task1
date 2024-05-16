@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button Text</title>
+    <style>
+        /* Add any desired styling here */
+        #toggleButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<button id="toggleButton" onclick="toggleText()">Click me</button>
+
+<script>
+    // JavaScript code to toggle the button text
+    function toggleText() {
+        const button = document.getElementById('toggleButton');
+        if (button.innerText === 'Click me') {
+            button.innerText = 'Text Changed';
+        } else {
+            button.innerText = 'Click me';
+        }
+    }
+</script>
+
+</body>
+</html>

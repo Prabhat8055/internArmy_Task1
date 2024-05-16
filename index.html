@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mode.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Best Url shortner in World</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <img src="/assects/UrL.png" alt="Logo" class="logo" />
+      <h1>Best URL Shortener</h1>
+      <button id="mode-toggle" class="mode-toggle">Dark Mode</button>
+    </nav>
+    <div id="results" class="fadeIn"></div>
+    <div class="container">
+      <h4>Enter Your URL</h4>
+      <input type="text" id="originalUrl" placeholder="https://example.com" />
+      <button id="short-btn" class="button-33">Short It</button>
+      <br />
+      <button id="reload-btn" class="button-33">Reload</button>
+      <div id="results"></div>
+      <br />
+      <label for="shortenedUrl" class="label">Shortened URL :</label>
+      <textarea id="shortenedUrl" rows="3" readonly></textarea>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

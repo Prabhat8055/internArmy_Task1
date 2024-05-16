@@ -1,0 +1,29 @@
+/* style.css */
+
+
+.mode-toggle {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+body, .nav-bar, .container {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.dark-mode {
+  background-color: #37474F; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+
+.dark-mode .container {
+  background-color: #263238; /* Darker background color for container */
+  color: #fff; /* Light text color */
+}
+
